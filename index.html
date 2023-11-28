@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design - tutorials</title>
+        <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="pics/GCTU LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="" title="Home page">HOME</a></li>
+                    <li><a href="" title="About US">ABOUT</a></li>
+                    <li><a href="" title="Courses we offer">COURSE</a></li>
+                    <li><a href="" title="Explore more">BLOG</a></li>
+                    <li><a href="" title="Contact US">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Ghana's Number One IT University</h1>
+    <p>Learning IT is one of the greatest thing in Ghana and the entire world. <br>IT is taking the world now starting with AI and coding</p>
+    <a href="" class="hero-btn" title="Visit Our Page">Visit Us To Know More</a>
+</div>
+</section>
+
+<!-------course------->
+
+<section class="course">
+    <h1>Level of Courses We Offer</h1>
+    <p>These are the courses level</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Diploma</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae ipsam molestiae voluptatum quibusdam eum ad, voluptas, nisi itaque optio dolor totam blanditiis nostrum! Itaque corporis sint repudiandae eaque dolor.</p>
+        </div>
+       <div class="course-col">
+           <h3>Degree</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae ipsam molestiae voluptatum quibusdam eum ad, voluptas, nisi itaque optio dolor totam blanditiis nostrum! Itaque corporis sint repudiandae eaque dolor.</p>
+        </div>
+       <div class="course-col">
+           <h3>Top UP</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, recusandae ipsam molestiae voluptatum quibusdam eum ad, voluptas, nisi itaque optio dolor totam blanditiis nostrum! Itaque corporis sint repudiandae eaque dolor.</p>
+        </div>
+    </div>
+
+
+</section>
+<!--campus-->
+
+<section class="campus">
+    <h1>Our Global campus</h1>
+    <p>These are the courses level</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="pics/me.jpg">
+            <div class="layer">
+                <h3 style="color: blue;">ACCRA</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="campus-col">
+        <img src="pics/odansefo.jpg">
+        <div class="layer">
+            <h3 style="color: blue;">KUMASI</h3>
+        </div>
+    </div>
+    
+    <div class="campus-col">
+        <img src="pics/IMG_8582.JPG">
+        <div class="layer">
+            <h3 style="color: blue;">EASTERN</h3>
+        </div>
+    </div>
+</div>
+</div>
+
+</section>
+
+
+<!--JavaScript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks"); 
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px"
+     }
+</script>
+
+</body>
+</html>
+
+
+
